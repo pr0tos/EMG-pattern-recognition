@@ -1,15 +1,26 @@
-# Распознавание паттернов движений нижних конечностей человека
-В работе реализуется алгоритм классификации паттернов движений нижних конечностей. Эта задача является актуальной и прикладной во многих отраслях медицинской техники, таких как протезирование нижних конечностей, реабилитационная и диагностическая техника в сфере физиологии, а также разработка экзоскелетов и поддерживающих конструкций.
-На данный момент существует большое количество отечественных исследований в аналогичной области по верхним конечностям, которые нашли широкое применение. В то же время отечественные разработки по нижним конечностям ограничены методами, основанными на мышечном принципе «агонист-антагонист», что делает существующие системы неполноценными.
+# Recognition of Human Lower Limb Movement Patterns
+The study implements an algorithm for classifying lower limb movement patterns. This task has significant practical applications in various areas of medical technology, including lower limb prosthetics, rehabilitation and diagnostic equipment in physiology, as well as the development of exoskeletons and assistive devices.
+
+Currently, there are numerous domestic studies in a similar field focusing on upper limbs, which have found widespread use. However, domestic developments for lower limbs are limited to methods based on the "agonist-antagonist" muscle principle, making existing systems incomplete.
 
 ![image](https://github.com/pr0tos/diploma/assets/137896055/ef5ec7ab-f83c-4302-8a08-5d83ca1908c6)
 
 ОСНОВНЫЕ ВЫВОДЫ ПО РЕЗУЛЬТАТАМ РАБОТЫ
-В результате работы был реализован алгоритм классификации паттернов движений нижних конечностей на языке Python, включающий в себя: 
-1)	модуль загрузки данных;
-2)	модуль предобработки (цифровой фильтрации);
-3)	модуль сегментации;
-4)	модуль выделения признаков
-5)	 нормализации данных на основе Z-показателя;
-6)	модуль классификации (NN – 92%).
-Представленный в выпускной квалификационной работе алгоритм распознавания движений нижних конечностей в перспективе может стать первым подобным медицинским ПО для управления бионическими протезами ног в Российской Федерации.
+KEY FINDINGS OF THE STUDY
+As a result of the research, a Python-based algorithm for classifying lower limb movement patterns was developed, consisting of:
+
+1) data loading module;
+
+2) preprocessing module (digital filtering);
+
+3) segmentation module;
+
+4) feature extraction module;
+
+5) Z-score-based data normalization;
+
+6) classification module (NN – 92% accuracy).
+
+The movement recognition algorithm presented in this thesis has the potential to become the first medical software of its kind in the Russian Federation for controlling bionic lower limb prostheses.
+
+
