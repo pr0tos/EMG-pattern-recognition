@@ -5,7 +5,6 @@ Currently, there are numerous domestic studies in a similar field focusing on up
 
 ![image](https://github.com/pr0tos/diploma/assets/137896055/ef5ec7ab-f83c-4302-8a08-5d83ca1908c6)
 
-ОСНОВНЫЕ ВЫВОДЫ ПО РЕЗУЛЬТАТАМ РАБОТЫ
 KEY FINDINGS OF THE STUDY
 As a result of the research, a Python-based algorithm for classifying lower limb movement patterns was developed, consisting of:
 
